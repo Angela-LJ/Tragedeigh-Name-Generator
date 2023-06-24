@@ -5,28 +5,34 @@
     	<meta name="description" content="This app simulates when your parental unit is really mad at you">
     	<meta name="keywords" content="mom, dad, yell">
 
-		<title>Angry Parent Simulator</title>
+		<title>Tragedeigh Name Generator</title>
 
 		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		<header>
+			<h1>Tragedeigh Name Generator <img src="css/img/icons8-wilted-flower-96.png"></h1>
+		</header>
 
-		<h1>Tragedeigh Name Generator</h1>
-		<h3>So you can have a "speshul" name</h3>
+		<h3>So you can have a "speshul" name!</h3>
 		<p>Tragedeigh = a given name that has been deliberately misspelled and/or completely made up for the sake of appearing unique.</p>
 
 		<form>
-			<label for="firstName"> First Name: </label>
-			<input id="firstName" type="text" placeholder="First Name">
-			<label for="middleName"> Middle Name: </label>
-			<input id="middleName" type="text" placeholder="Middle Name">
-			<label for="lastName"> Last Name: </label>
-			<input id="lastName" type="text" placeholder="Enter Last Name">
+			<div class="form-container">
+				<label for="firstName"> First Name: </label>
+				<input id="firstName" type="text" placeholder="First Name">
+				<label for="middleName"> Middle Name: </label>
+				<input id="middleName" type="text" placeholder="Middle Name">
+				<label for="lastName"> Last Name: </label>
+				<input id="lastName" type="text" placeholder="Enter Last Name">
+			<div>
 		</form>
-
-		<button id="speshul" type="button" name="button">MAKE SPESHUL</button>
+		<button id="speshul" type="button" name="button">MAKE INTO A TRAGEDEIGH</button>
 
 		<h2 id="placeToYell"></h2>
 
