@@ -76,7 +76,7 @@ function modifyName (name) {
         currentLetter = getRandom (['qy', 'qw', 'kw']);
         break;
       case 'k':
-        currentLetter = getRandom (['q', 'qk']);
+        currentLetter = getRandom (['q', 'qk', 'kq', 'kc']);
         break;
       case 'c':
         currentLetter = getRandom (['s', 'x']);
